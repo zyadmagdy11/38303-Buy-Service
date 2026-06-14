@@ -1,0 +1,11 @@
+model,type,cv_score,cv_std,best_params
+ElasticNet,Polynomial,-8991.621040102436,331.0434195926031,"{'poly__degree': 2, 'regressor__alpha': 1.0, 'regressor__fit_intercept': True, 'regressor__l1_ratio': 0.7}"
+Lasso,Linear,-8993.398692697734,327.57523460806595,"{'regressor__alpha': 1.0, 'regressor__fit_intercept': True}"
+ElasticNet,Linear,-8994.798490763982,328.0623772828942,"{'regressor__alpha': 1.0, 'regressor__fit_intercept': True, 'regressor__l1_ratio': 0.9}"
+Lasso,Polynomial,-9003.819658936653,349.6136091914483,"{'poly__degree': 2, 'regressor__alpha': 1.0, 'regressor__fit_intercept': True}"
+Ridge,Linear,-9012.303269957472,320.0293017458343,"{'regressor__alpha': 10.0, 'regressor__fit_intercept': True}"
+LinearRegression,Linear,-9012.919730283948,319.9620048872608,{'regressor__fit_intercept': True}
+Ridge,Polynomial,-9190.037518108642,425.9711861874338,"{'poly__degree': 2, 'regressor__alpha': 10.0, 'regressor__fit_intercept': True}"
+RandomForest,Linear,-9344.20603932867,434.15118042341334,"{'regressor__max_depth': 5, 'regressor__min_samples_leaf': 2, 'regressor__min_samples_split': 2, 'regressor__n_estimators': 100}"
+XGBoost,Linear,-9347.955040899378,346.65601517451626,"{'regressor__colsample_bytree': 0.8, 'regressor__learning_rate': 0.05, 'regressor__max_depth': 3, 'regressor__n_estimators': 100, 'regressor__subsample': 1.0}"
+LinearRegression,Polynomial,-9364.0628660449,432.14129853354757,"{'poly__degree': 2, 'regressor__fit_intercept': True}"
